@@ -9,7 +9,7 @@ namespace Postit_webapp.Models
 
         public DatabaseContext(DbContextOptions<DatabaseContext> dbContextOptions) : base(dbContextOptions)
         {
-
+            //test
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
